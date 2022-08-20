@@ -1,20 +1,4 @@
 
-
-// document.querySelector("button").addEventListener("click", handleClick);
-
-// function handleClick(){
-//     alert("I got clicked!");
-// }
-
-// mio codice
-// document.querySelector(".set").addEventListener("click", function (){
-//     alert("I got clicked!");
-// });
-//non é corretto perché in questo caso cliccare lo spazio tra i bottoni da lo stesso risultato, cosa che non vogliamo
-
-//alternativa corretta
-
-// Identifica quale pulsante viene premuto
 for (i =0; i<document.querySelectorAll(".drum").length; i++){
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
