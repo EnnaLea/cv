@@ -9,8 +9,6 @@ for (i =0; i<document.querySelectorAll(".drum").length; i++){
     });
 }
 
-// Identifica quale tasto della tastiera viene premuto
-
 document.addEventListener("keydown", function(event){
 
     makeSound(event.key);
